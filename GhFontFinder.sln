@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhFontFinder.Core", "GhFontFinder.Core\GhFontFinder.Core.csproj", "{E7F0E282-9732-43F2-9337-6B07A4BA4D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhFontFinder.Cli", "GhFontFinder.Cli\GhFontFinder.Cli.csproj", "{A23E4E04-5AF1-4488-88D8-9D17B5948AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhFontFinder.Gui", "GhFontFinder.Gui\GhFontFinder.Gui.csproj", "{1D0D8238-FD1C-4887-85DB-BE27F461AF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhFontFinder.Serialisation", "GhFontFinder.Serialisation\GhFontFinder.Serialisation.csproj", "{350B0BA0-7E9B-437C-9B5F-91F61A05D169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F0E282-9732-43F2-9337-6B07A4BA4D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F0E282-9732-43F2-9337-6B07A4BA4D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F0E282-9732-43F2-9337-6B07A4BA4D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F0E282-9732-43F2-9337-6B07A4BA4D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23E4E04-5AF1-4488-88D8-9D17B5948AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23E4E04-5AF1-4488-88D8-9D17B5948AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23E4E04-5AF1-4488-88D8-9D17B5948AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23E4E04-5AF1-4488-88D8-9D17B5948AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0D8238-FD1C-4887-85DB-BE27F461AF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0D8238-FD1C-4887-85DB-BE27F461AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0D8238-FD1C-4887-85DB-BE27F461AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0D8238-FD1C-4887-85DB-BE27F461AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350B0BA0-7E9B-437C-9B5F-91F61A05D169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350B0BA0-7E9B-437C-9B5F-91F61A05D169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350B0BA0-7E9B-437C-9B5F-91F61A05D169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350B0BA0-7E9B-437C-9B5F-91F61A05D169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
