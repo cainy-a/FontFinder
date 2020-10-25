@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace GhFontFinder.Serialisation
 {
@@ -9,6 +10,6 @@ namespace GhFontFinder.Serialisation
 		[JsonPropertyName("incomplete_results")]
 		public bool Incomplete { get; set; }
 
-		[JsonPropertyName("items")] public CodeSearchItem[] Items { get; set; }
+		[JsonPropertyName("items")] public List<CodeSearchItem> Items { get; set; }
 	}
 }

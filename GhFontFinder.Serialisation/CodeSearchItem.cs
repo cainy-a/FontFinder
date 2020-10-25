@@ -11,6 +11,6 @@ namespace GhFontFinder.Serialisation
 		[JsonPropertyName("git_url")]    public string     GitUrl     { get; set; }
 		[JsonPropertyName("html_url")]   public string     HtmlUrl    { get; set; }
 		[JsonPropertyName("repository")] public Repository Repository { get; set; }
-		[JsonPropertyName("score")]      public int        Score      { get; set; }
+		[JsonPropertyName("score")]      public float      Score      { get; set; }
 	}
 }
